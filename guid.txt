@@ -1,0 +1,12 @@
+Running Docker file or Building Environ
+
+docker build buildenv -t myos-buildenv
+
+step 2 :
+Build Env Created for windows and mac os
+
+setp 3 :
+make build-x86_64 
+
+setp4 :
+qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso
